@@ -7,6 +7,7 @@ exports.mysql = {
   },
   app: true,
   agent: false,
+  statusSQL: 'select now() as currentTime;',
 
   // Single Database
   // client: {
